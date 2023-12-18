@@ -1,0 +1,86 @@
+// main: style.less
+
+.header {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px #000000;
+}
+
+.header .logo {
+    font-family: 'Podkova', serif;
+    font-size: 36px;
+    padding-left: 300px;
+}
+
+.header .logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header .menu {
+    font-family: 'Podkova', serif;
+    display: flex;
+    list-style: none;
+    padding-right: 160px;
+}
+
+.header ul li {
+    padding-left: 60px;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul li a {
+    font-family: 'Podkova', serif;
+    text-decoration: none;
+    color: #3F3F3F;
+    display: block;
+    padding: 10px 15px;
+
+    &:hover{
+        border-bottom: 1px solid #6EC4F4;
+    }
+}
+
+.nav ul li ul{
+    position: absolute;
+    right: 100px;
+    padding: 15px;
+    width: 180px;
+    display: none;
+
+    background-color: #FFFFFF;
+
+   // &:hover {
+     //   display: inline;
+    //}
+}
+
+.nav ul li:hover>ul {
+    display: inline;
+}
+
+.nav ul li ul li {
+    right: 100px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header-regbtn {
+    font-family: 'Podkova', serif;
+    margin-left: 60px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.sections-header ul li{
+    text-decoration: none;
+    font-family: 'Podkova', serif;
+}
